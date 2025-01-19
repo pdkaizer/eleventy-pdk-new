@@ -24,7 +24,7 @@ module.exports = {
     // If you opt for text fallback, you may want to adjust
     // $menuBreakpoint variable in _variables.scss
     // so that site title and menu items remain within a single line.
-    logo: '/images/logo.svg',
+    logo: '/images/pdk-logo.svg',
     // Default language of the site. Used in 'lang' attribute of <html> element
     // If none is provided, no 'lang' attribute will be used.
     language: 'en',
@@ -54,11 +54,11 @@ module.exports = {
     // And if you decide to remove it after all, be sure to edit
     // content/_includes/footer.njk as well
     template: {
-      name: 'Bliss',
+      name: 'eleventy-PDK',
       url: 'https://github.com/lwojcik/eleventy-template-bliss',
       credit: {
-        name: 'Łukasz Wójcik',
-        url: 'https://lukaszwojcik.net/',
+        name: 'Peter Kaizer',
+        url: 'https://peterkaizer.com',
       },
     },
   },
@@ -68,7 +68,7 @@ module.exports = {
   author: {
     // Your name. Self-explanatory I guess?
     // And you can use it anywhere on the site as {{ siteConfig.author.name }}
-    name: 'John Doe',
+    name: 'Peter Kaizer',
     // Your website URL. Used in the footer. Optional.
     // Doesn't have to be the same link as this site
     url: 'https://eleventy-bliss.vercel.app/',
