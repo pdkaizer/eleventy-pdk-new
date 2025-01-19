@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Peter Kaizer
 description: There are many variations of passages of Lorem Ipsum available.
 eleventyNavigation:
   key: About

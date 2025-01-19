@@ -9,12 +9,12 @@ module.exports = {
     // OpenGraph tags and feeds.
     // Can also be used anywhere on the site as a Nunjucks variable:
     // {{ siteConfig.site.logo }}
-    title: 'Bliss',
+    title: 'Peter Kaizer | Product Designer',
     // Site description. Used in many places, including meta title,
     // OpenGraph tags and feeds.
     // It is also used as a fallback description if no custom description
     // is provided for a page / post.
-    description: 'Simple Eleventy blog template',
+    description: 'I am a digital product designer with a passion for user focused digital products that are highly functional and beautifully designed.',
     // Production URL. Used by 'alwaysProductionUrl' filter.
     // If none is provided, relative paths will be used
     // and in some cases (like sitemap.xml) that is TOTALLY NOT what you want
@@ -82,9 +82,9 @@ module.exports = {
     // method of verification.
     fediverse: [
       {
-        username: 'JohnMastodon',
-        server: 'mastodon.social',
-        url: 'https://mastodon.social/@JohnMastodon',
+        username: 'pdkaizer',
+        server: 'toad.social',
+        url: 'https://toad.social/@pdkaizer',
       },
     ],
   },
@@ -93,16 +93,16 @@ module.exports = {
   // ---------------------------------------------------------------------------
   metaPages: [
     {
-      url: 'https://example.org/link-1/',
-      title: 'Example link 1',
+      url: 'https://www.streetwisegourmet.com',
+      title: 'Streetwise Gourmet',
     },
     {
-      url: 'https://example.org/link-2/',
-      title: 'Example link 2',
+      url: 'https://design-bytes.com',
+      title: 'Design Bytes',
     },
     {
-      url: 'https://example.org/link-3/',
-      title: 'Example link 3',
+      url: 'https://books.peterkaizer.com',
+      title: 'My Reccomended Books',
     },
   ],
   // ---------------------------------------------------------------------------
@@ -130,7 +130,7 @@ module.exports = {
   x: {
     card: 'summary_large_image',
     image: '/images/share-1200x600.jpg',
-    site: '@your_twitter_handle',
+    site: '@pdkaizer',
   },
   // ---------------------------------------------------------------------------
   // Settings for post tags
