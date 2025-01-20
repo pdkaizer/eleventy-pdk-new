@@ -25,7 +25,7 @@ footer .container {
 
 @include biggerThanMobile {
   .container {
-    max-width: 43rem;
+    max-width: 53rem;
 
     &.with-asides,
     &.with-asides footer .container {
