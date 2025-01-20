@@ -1,10 +1,9 @@
 ---
-layout: home
-headerImage: rehoboth-2021.jpg
+layout: base
 eleventyExcludeFromCollections: true
 pagination:
   data: collections.publishedPosts
-  size: 10
+  size: 12
   alias: posts
 permalink: "{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}{% endif %}/index.html"
 ---
