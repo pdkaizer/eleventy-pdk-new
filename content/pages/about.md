@@ -1,5 +1,6 @@
 ---
 title: About Peter Kaizer
+icon: far fa-user
 description: There are many variations of passages of Lorem Ipsum available.
 eleventyNavigation:
   key: About
